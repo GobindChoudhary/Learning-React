@@ -14,9 +14,7 @@ function App() {
   };
 
   return (
-    <main>
-      <h1>{value.studing.toString()}</h1>
-      <button
+    <main>q
         style={buttonStyle}
         onClick={() => setValue({ ...value, studing: !value.studing })}
         className="text-white font-bold py-2 px-4 rounded"
